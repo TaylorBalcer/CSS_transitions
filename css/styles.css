@@ -6,24 +6,59 @@
 background-color:#090;
 }
 
+.item_1_box:hover {
+	background-color:#009;
+	transition-duration:1s;
+	}
+
 .item_2_box {
-width: 50%;
+	width: 50%;
+	transition: width 3s ease .1s;
 }
 
+.item_2_box:hover {
+	width: 60%;
+
+}
 .item_3_box {
 height: 1.2em;
+transition: height .5s ease .2s;
 }
+
+.item_3_box:hover {
+	height: 2.2em;
+	}
 
 .item_4_box {
+	transform: scale(1.0);
+	transition: transform .2s ease-out;
 }
 
+.item_4_box:hover {
+	transform: scale(1.5);
+	}
+
+
 .item_5_box {
+	opacity: 1;
 height: 1.2em;
+transition: opacity .5s ease .1s,  color .5s ease .1s;
+}
+
+
+.item_5_box:hover {
+	opacity: .2;
+	
 }
 
 .item_6_box {
 	color:#ff9;
 	font-size: 1em;
+}
+
+.item_6_box:hover {
+	color:#938;
+	font-size: 1.2em;
 }
 
 .item_7_box {
@@ -32,16 +67,39 @@ height: 1.2em;
 	text-align:left;
 }
 
+.item_7_box:hover {
+	padding-left: 55%;
+	width: 30%;
+	text-align:left;
+}
+
 .item_8_box {
-	width:50%;
+	transform: scale(1.0);
+	transition: transform .2s ease-out;
+	
 	color:#ff9;
 	background-color: #090;
 }
+
+.item_8_box:hover {
+	transform: scale(1.5);
+	
+	color:#166;
+	background-color: #090;
+}
+
 
 .item_9_box {
 	width: 150px;
 	height: 34px;
 	padding: 26px 0 0 0;
+	background-image:url(../img/dog.png);
+	background-position: 0 150px;
+	transition: background-position 1.8s ease-in 0s;
+}
+
+.item_9_box:hover{
+	background-position: 0 0;
 }
 
 
